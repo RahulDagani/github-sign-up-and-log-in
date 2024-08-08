@@ -1,0 +1,59 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(235, 231, 231, 0.477);
+    
+    height: 100vh;
+    padding: 20px;
+    
+
+}
+.image{
+    width: 50px;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    
+}
+
+.heading{
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgba(128, 128, 128, 0.941);
+}
+.user-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-width: 2px;
+    border-color: rgba(128, 128, 128, 0.522);
+    border-radius: 5px;
+    border-style: solid;
+    padding: 10px;
+    width: 400px;
+    background-color: white;
+}
+.already-have-an-account{
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-width: 2px;
+    border-color: rgba(128, 128, 128, 0.522);
+    border-radius: 5px;
+    border-style: solid;
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    background-color: rgba(34, 240, 34, 0.836);
+    border-radius: 0;
+}
